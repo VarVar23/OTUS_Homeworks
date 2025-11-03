@@ -26,8 +26,6 @@ namespace MVx
                 fillAmound = 0;
             }
 
-            Debug.Log(fillAmound);
-
             _view.XPImage.fillAmount = fillAmound;
             _view.XPText.text = _model.StartTextXP + currentXP + _model.Separation + maxXP;
         }
